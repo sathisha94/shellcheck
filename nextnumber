@@ -4,7 +4,7 @@ if ! shopt -s globstar
 then
   echo "Error: This script depends on Bash 4." >&2
   exit 1
-fi
+ fi
 
 for i in 1 2 3
 do
